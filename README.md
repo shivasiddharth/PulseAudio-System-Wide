@@ -6,7 +6,7 @@
 sudo apt-get update     
 sudo apt-get install git    
 cd /home/${USER}/       
-sudo apt-get git clone https://github.com/shivasiddharth/PulseAudio-System-Wide       
+git clone https://github.com/shivasiddharth/PulseAudio-System-Wide       
 cd ./Pulseaudio-System-Wide/      
 sudo cp ./pulseaudio.service /etc/systemd/system/pulseaudio.service    
 systemctl --system enable pulseaudio.service       
